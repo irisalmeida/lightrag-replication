@@ -5,5 +5,5 @@ pandas>=2.0.0
 numpy>=1.24.0
 tiktoken>=0.5.0
 tenacity>=8.2.0
-python-dotenv>=1.0.0
+python-dotenv>=1.2.2
 aiolimiter>=1.1.0
