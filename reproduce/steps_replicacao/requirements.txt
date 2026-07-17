@@ -1,0 +1,26 @@
+# MedQA-USMLE Benchmark com LightRAG - Dependências Específicas
+# Instale com: pip install -r requirements.txt
+
+# LightRAG Framework (já instalado via pip install -e .)
+# lightrag>=0.1.0
+
+# Processamento de dados
+pandas>=2.0.0
+numpy>=1.24.0
+networkx>=3.0
+
+# LLM e Embeddings
+openai>=1.3.0
+sentence-transformers>=2.2.0
+tenacity>=8.2.0
+
+# Avaliação RAGAS
+ragas>=0.1.0
+
+# Utilitários
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+
+# Opcional: para visualização
+matplotlib>=3.7.0
+seaborn>=0.12.0
